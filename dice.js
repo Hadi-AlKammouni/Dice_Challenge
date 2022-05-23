@@ -87,4 +87,15 @@ for (let i=0; i<2; i++){
 
         }
     }
-}    
+}
+
+// Compare the results and introduce the winner or if the two players got equal points
+if(player_one==player_two){
+    document.getElementById("winner").innerHTML="Draw!"
+} 
+else if (player_one>player_two){
+    document.getElementById("winner").innerHTML="🚩 Play 1 Win"
+}
+else{
+    document.getElementById("winner").innerHTML="🚩 Play 2 Win"
+}
