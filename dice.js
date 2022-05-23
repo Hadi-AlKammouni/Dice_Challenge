@@ -50,4 +50,41 @@ for (let i=0; i<2; i++){
     
         }
     }
+
+    // Second image
+    else{
+        switch (random_dice){
+
+            case 1:
+                image_two.src="assets/dice1.png"
+                player_two=1
+            break;
+    
+            case 2:
+                image_two.src="assets/dice2.png"
+                player_two=2
+            break;
+    
+            case 3:
+                image_two.src="assets/dice3.png"
+                player_two=3
+            break;
+    
+            case 4:
+                image_two.src="assets/dice4.png"
+                player_two=4
+            break;
+    
+            case 5:
+                image_two.src="assets/dice5.png"
+                player_two=5
+            break;
+    
+            case 6:
+                image_two.src="assets/dice6.png"
+                player_two=6
+            break;
+
+        }
+    }
 }    
